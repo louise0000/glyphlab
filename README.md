@@ -29,3 +29,45 @@ With a bit more time than I have tonight, fake letters like these that I made a 
 [https://openprocessing.org/sketch/1566845]
 
 [https://openprocessing.org/sketch/1614662]
+
+# Chatgpt's ideas about where ML/DL might help...
+
+# ML/DL next steps
+
+## Where we are
+
+- **No ML/DL used yet.** Everything is deterministic, pixel-only (Otsu, connected components, skeletonise/thinning, medial-axis “Voronoi” distance field, contouring, RDP, Chaikin).
+    
+- **Skeletons:** we use both `skeletonize` (thinning) and `medial_axis(..., return_distance=True)` (Voronoi/EDT). The latter is where some of the performance pain comes from.
+    
+
+## Can ML/DL improve things? Yes — in targeted places
+
+Think “assist” modules, not a full rewrite. The biggest wins:
+
+1. **Binarisation / clean-up (preprocess)**
+    
+    - A tiny U-Net (or even a classical random-forest on local features) can learn “ink probability” → fewer speckles, better edges than Otsu on tricky scans.
+        
+    - Drop-in replacement for our `binarise(gray)` step.
+        
+2. **Junction detection (Y3 & Y4)**
+    
+    - Train a **patch classifier** on 32×3232×3232×32 crops centred on skeleton pixels to label **junction vs curve** (+ junction type: T, Y, X) and an estimated **junction radius/orientation**.
+        
+    - This replaces our hand-tuned degree+cut tests and should reduce false hits on S-curves while giving better radii for masking.
+        
+3. **Centreline estimation (N4/N5)**
+    
+    - A light CNN that outputs a **centreline heatmap** (and optional width map). Soft-argmax + thinning on that heatmap yields a smoother, less wiggly centreline than plain skeletonise.
+        
+    - Helps the “altitude/Voronoi” path where normals from noisy skeletons create wobble.
+        
+4. **Corner snapping & curve bias (N2/Y5)**
+    
+    - A tiny model that classifies each contour vertex neighbourhood as **near-orthogonal / near-circular / general curve** and predicts a **snap direction**. Use it to drive smarter orthogonalisation and smoothing → cleaner icons and boxy glyphs.
+        
+5. **Routing thresholds (N5 vs Y5, should-be-path vs icon)**
+    
+    - Keep our hand-crafted features (LoA, IPQ, persistent junctions) but learn the decision rule with a **shallow tree or logistic regression**. This gives you tunable boundaries without hand-tweaking constants.
+        
