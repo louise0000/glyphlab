@@ -9,14 +9,14 @@
 
 ↑Something like this could be used to generate thousands, millions of permutations of a junction with accompanying bezier path points 
 
-(which uses these basic coordinates over a 0,0 central coordinate)
-
 **Press start capture which will download a new permutation 3 times pe second. _Remember to press stop capture!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
+
+↓ (You can also see the basic coordinates over a 0,0 central coordinate here:)
 
 [https://openprocessing.org/sketch/1565698]
 
 
-# More fake letter parts from programs I made before
+# ↓ More fake letter parts from programs I made before
 
 With a bit more time than I have tonight, fake letters like these that I made a LONG time ago can be generated with intersection and path data. (hundreds of) thousands of letters can be downloaded quite quickly, you'll notice that number keys can change the thickness of letters when pressed repeatedly so variations of fonts also somewhat possible although real letters have greater stylistic variety than just these few styles...
 
