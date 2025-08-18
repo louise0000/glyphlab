@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "file": "Letter-06.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y5",
+      "persistent_junction_pixels": 0,
+      "L_over_A": 0.003030390487416226,
+      "ipq": 0.7115271579627788
+    },
+    {
+      "file": "Letter-07.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "N5",
+      "persistent_junction_pixels": 0,
+      "L_over_A": 0.007537052961580639,
+      "ipq": 0.31264825820666553
+    },
+    {
+      "file": "Letter-08.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y3",
+      "persistent_junction_pixels": 3
+    },
+    {
+      "file": "Letter-09.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "N5",
+      "persistent_junction_pixels": 1,
+      "L_over_A": 0.007602082929883502,
+      "ipq": 0.26180106456179725
+    },
+    {
+      "file": "Letter-10.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "N5",
+      "persistent_junction_pixels": 0,
+      "L_over_A": 0.025905886208730456,
+      "ipq": 0.4134984235949847
+    },
+    {
+      "file": "Letter-11.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y3",
+      "persistent_junction_pixels": 27
+    },
+    {
+      "file": "Letter-488.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y3",
+      "persistent_junction_pixels": 3
+    },
+    {
+      "file": "Letter-489.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y3",
+      "persistent_junction_pixels": 11
+    },
+    {
+      "file": "Letter-490.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "Y3",
+      "persistent_junction_pixels": 4
+    }
+  ]
+}

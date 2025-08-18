@@ -1,0 +1,165 @@
+{
+  "results": [
+    {
+      "file": "Letter-01.png",
+      "compound": true,
+      "holes": 1,
+      "leaf": "Y4",
+      "L_over_A": 0.019078148827640654,
+      "right_angle_fraction": 0.0,
+      "junctions": 11,
+      "skel_components": 1,
+      "endpoints": 3
+    },
+    {
+      "file": "Letter-02.png",
+      "compound": true,
+      "holes": 2,
+      "leaf": "Y4",
+      "L_over_A": 0.018995850136984512,
+      "right_angle_fraction": 0.0011682242990654205,
+      "junctions": 10,
+      "skel_components": 1,
+      "endpoints": 2
+    },
+    {
+      "file": "Letter-03.png",
+      "compound": true,
+      "holes": 1,
+      "leaf": "N4",
+      "L_over_A": 0.03780841074628866,
+      "right_angle_fraction": 0.0,
+      "junctions": 0,
+      "skel_components": 1,
+      "endpoints": 0
+    },
+    {
+      "file": "Letter-04.png",
+      "compound": true,
+      "holes": 3,
+      "leaf": "Y4",
+      "L_over_A": 0.03448516945389186,
+      "right_angle_fraction": 0.004191114836546521,
+      "junctions": 81,
+      "skel_components": 3,
+      "endpoints": 24
+    },
+    {
+      "file": "Letter-05.png",
+      "compound": true,
+      "holes": 2,
+      "leaf": "N2",
+      "L_over_A": 0.01613929542407388,
+      "right_angle_fraction": 0.0015455950540958269
+    },
+    {
+      "file": "Letter-06.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-07.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-08.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-09.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-10.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-11.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-12.png",
+      "compound": true,
+      "holes": 1,
+      "leaf": "Y4",
+      "L_over_A": 0.025072846783727287,
+      "right_angle_fraction": 0.0,
+      "junctions": 23,
+      "skel_components": 2,
+      "endpoints": 9
+    },
+    {
+      "file": "Letter-484.png",
+      "compound": true,
+      "holes": 1,
+      "leaf": "Y4",
+      "L_over_A": 0.030403203276357052,
+      "right_angle_fraction": 0.010224948875255624,
+      "junctions": 9,
+      "skel_components": 2,
+      "endpoints": 4
+    },
+    {
+      "file": "Letter-486.png",
+      "compound": true,
+      "holes": 3,
+      "leaf": "Y4",
+      "L_over_A": 0.03930954452957598,
+      "right_angle_fraction": 0.013358778625954198,
+      "junctions": 26,
+      "skel_components": 2,
+      "endpoints": 6
+    },
+    {
+      "file": "Letter-487.png",
+      "compound": true,
+      "holes": 2,
+      "leaf": "Y4",
+      "L_over_A": 0.03775135134971886,
+      "right_angle_fraction": 0.0032733224222585926,
+      "junctions": 22,
+      "skel_components": 1,
+      "endpoints": 5
+    },
+    {
+      "file": "Letter-488.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-489.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-490.png",
+      "compound": false,
+      "holes": 0,
+      "leaf": "(skip branch)"
+    },
+    {
+      "file": "Letter-491.png",
+      "compound": true,
+      "holes": 1,
+      "leaf": "Y4",
+      "L_over_A": 0.053754131901955444,
+      "right_angle_fraction": 0.004273504273504274,
+      "junctions": 7,
+      "skel_components": 1,
+      "endpoints": 2
+    }
+  ]
+}
