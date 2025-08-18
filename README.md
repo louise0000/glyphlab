@@ -15,6 +15,9 @@
 
 [https://openprocessing.org/sketch/1565698]
 
+
+# More fake letter parts from programs I made before
+
 With a bit more time than I have tonight, fake letters like these that I made a LONG time ago can be generated with intersection and path data. (hundreds of) thousands of letters can be downloaded quite quickly, you'll notice that number keys can change the thickness of letters when pressed repeatedly so variations of fonts also somewhat possible although real letters have greater stylistic variety than just these few styles...
 
 [https://openprocessing.org/sketch/1003332]
