@@ -9,7 +9,7 @@
 
 ↑Something like this could be used to generate thousands, millions of permutations of a junction with accompanying bezier path points 
 
-**Press start capture which will download a new permutation 3 times pe second. _Remember to press stop capture!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
+**Press \[START CAPTURE\] which will download a new permutation 3 times pe second. _Remember to press \[STOP CAPTURE\]!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
 
 ↓ (You can also see the basic coordinates over a 0,0 central coordinate here:)
 
