@@ -1,5 +1,5 @@
-
-
+# The Problem with Autotrace - Why We Need Stroke Skeleton Detection
+## This movie has an audio soundtrack ✒️
 https://github.com/user-attachments/assets/c9526f97-9cf6-4598-9ebe-cdfa4f770a7a
 
 
