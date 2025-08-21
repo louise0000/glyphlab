@@ -1,3 +1,5 @@
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1111996293?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="The problem with autotrace"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 # Initial Logic
 <img width="1209" height="558" alt="Screenshot 2025-08-18 at 9 36 02 pm" src="https://github.com/user-attachments/assets/15c12508-04c6-4465-9649-8b4401d5b48d" />
 
