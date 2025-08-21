@@ -1,4 +1,9 @@
 
+
+https://github.com/user-attachments/assets/c9526f97-9cf6-4598-9ebe-cdfa4f770a7a
+
+
+
 # Initial Logic
 <img width="1209" height="558" alt="Screenshot 2025-08-18 at 9 36 02 pm" src="https://github.com/user-attachments/assets/15c12508-04c6-4465-9649-8b4401d5b48d" />
 
@@ -9,6 +14,7 @@
 [https://openprocessing.org/sketch/2703444]
 
 ↑Something like this could be used to generate thousands, millions of permutations of a junction with accompanying bezier path points 
+Photoshop can also batch add noise to folders worth of images
 
 **Press \[START CAPTURE\] which will download a new permutation 3 times pe second. _Remember to press \[STOP CAPTURE\]!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
 
