@@ -5,7 +5,14 @@ https://github.com/user-attachments/assets/c9526f97-9cf6-4598-9ebe-cdfa4f770a7a
 
 
 # Initial Logic
+
+Before I could define an ML / DL problem, I needed to figure out what kinds of logic are at work when me—a human, approaches type-tracing in a very manual way through vector graphics software.
+
+Breaking down different types of letter and logoform types into categories helped me design a decision tree, and arrange the forms along a spectrum as seen at the top of the tree here:
+
 <img width="1209" height="558" alt="Screenshot 2025-08-18 at 9 36 02 pm" src="https://github.com/user-attachments/assets/15c12508-04c6-4465-9649-8b4401d5b48d" />
+
+In this github repository is a vibe coded app, that uses traditional image processing algorithms from the 90s, and achieves good classification according to my decision tree rules just by checking things such as "is there a empty space completely enclosed by filled pixels?" if so, there is a compound shape (a path within a path). Is the area of fill significantly bigger than the compound windows? Then it's probably an image rather than a concentric path with a compound window. Are there junctions, indicated by a cluster of pixels with more than two protrusions...? It even attempts a voronoi skeleton producing a very sketchy attempt at an inner path for strokes. However, training using data such as can be generated below as well as a creative loss function need designing to improve upon the voronoi skeletons. 
 
 # Initial Thoughts on Intersections
 <img width="490" height="467" alt="Screenshot 2025-08-18 at 10 55 04 pm" src="https://github.com/user-attachments/assets/f2d842a1-0a41-4ff1-bb49-584919edbe2f" />
