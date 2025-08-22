@@ -4,6 +4,7 @@
 
 #### The left and the right of any stroke should be parallel, not drawn as indifferent lines
 
+![original-cfd4e14422b25bd6150aadc774de7a94](https://github.com/user-attachments/assets/ced25f0d-2d9d-4dd3-bdc5-0438a1d85155)
 
 
 ## This movie has an audio soundtrack ✒️
