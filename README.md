@@ -1,4 +1,11 @@
 # The Problem with Autotrace - Why We Need Stroke Skeleton Detection
+
+<img width="789" height="389" alt="Screenshot 2025-08-22 at 4 23 30 pm" src="https://github.com/user-attachments/assets/57e015cd-f943-4f9a-999a-ef67bdb4e947" />
+
+#### The left and the right of any stroke should be parallel, not drawn as indifferent lines
+
+<img width="789" height="389" alt="calig" src="https://cdn.dribbble.com/userupload/20407821/file/original-cfd4e14422b25bd6150aadc774de7a94.gif"/>
+
 ## This movie has an audio soundtrack ✒️
 https://github.com/user-attachments/assets/c9526f97-9cf6-4598-9ebe-cdfa4f770a7a
 
