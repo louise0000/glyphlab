@@ -21,10 +21,18 @@ You can see that the deterministic voronoi process produces a varying quality of
 
 # Can't we improve this? Tools for Data Capture
 Training data, for example with perfect junction positions as a json file and accompanying images can be produced fast and at volume without any hand-labelling needed.
+
 [https://openprocessing.org/sketch/2703444]
+
 **Press \[START CAPTURE\] which will download a new permutation 3 times pe second. _Remember to press \[STOP CAPTURE\]!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
 
-Using a combination of available information that we can create around aspects of the problem using tools I have provided, a loss function needs to be designed to optimise compared to the voronoi as baseline.
+
+###  This is the output of the tool above - a json file and random permutations of images to address a particular aspect of the problem that match the mathematical coordinate data
+<img width="625" height="771" alt="Screenshot 2025-08-22 at 4 16 28 pm" src="https://github.com/user-attachments/assets/6bc50bb0-adf3-4e2b-b723-21afc9c2a434" /><img width="708" height="617" alt="Screenshot 2025-08-22 at 4 19 29 pm" src="https://github.com/user-attachments/assets/248b18dc-d59f-4aed-8c19-0eb65938bf9a" />
+
+
+
+Using a combination of available information that we can create around aspects of the problem using tools that I have provided, a loss function needs to be designed to optimise compared to the voronoi as baseline.
 
 ↓ (You can also see the basic coordinates over a 0,0 central coordinate here:)
 
