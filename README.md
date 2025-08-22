@@ -12,18 +12,19 @@ Breaking down different types of letter and logoform types into categories helpe
 
 <img width="1209" height="558" alt="Screenshot 2025-08-18 at 9 36 02 pm" src="https://github.com/user-attachments/assets/15c12508-04c6-4465-9649-8b4401d5b48d" />
 
-In this github repository is a vibe coded app, that uses traditional image processing algorithms from the 90s, and achieves good classification according to my decision tree rules just by checking things such as "is there a empty space completely enclosed by filled pixels?" if so, there is a compound shape (a path within a path). Is the area of fill significantly bigger than the compound windows? Then it's probably an image rather than a concentric path with a compound window. Are there junctions, indicated by a cluster of pixels with more than two protrusions...? It even attempts a voronoi skeleton producing a very sketchy attempt at an inner path for strokes. However, training using data such as can be generated below as well as a creative loss function need designing to improve upon the voronoi skeletons. 
+In this github repository is a vibe coded app, that uses traditional image processing algorithms from the 90s, and achieves good classification according to my decision tree rules just by checking things such as "is there a empty space completely enclosed by filled pixels?" if so, there is a compound shape (a path within a path). Is the area of fill significantly bigger than the compound windows? Then it's probably an image rather than a concentric path with a compound window. Are there junctions, indicated by a cluster of pixels with more than two protrusions...? It even attempts a voronoi skeleton producing a very sketchy attempt at an inner path for strokes. 
 
-# Initial Thoughts on Intersections
-<img width="490" height="467" alt="Screenshot 2025-08-18 at 10 55 04 pm" src="https://github.com/user-attachments/assets/f2d842a1-0a41-4ff1-bb49-584919edbe2f" />
+You can see that the deterministic voronoi process produces a varying quality of skeleton depending on the difficulty of the problem
+<img width="937" height="446" alt="Screenshot 2025-08-22 at 4 02 26 pm" src="https://github.com/user-attachments/assets/6f1e8379-f83f-42c9-9414-780768b3fbe4" />
+<img width="795" height="393" alt="Screenshot 2025-08-22 at 4 03 13 pm" src="https://github.com/user-attachments/assets/629bbd1e-7571-4781-83d5-9dbd82191f35" />
+<img width="937" height="446" alt="Screenshot 2025-08-22 at 4 02 04 pm" src="https://github.com/user-attachments/assets/eb2d9233-0d68-481a-9405-b2d3eba4988d" />
 
-# Tools for Data Capture
+# Can't we improve this? Tools for Data Capture
+Training data, for example with perfect junction positions as a json file and accompanying images can be produced fast and at volume without any hand-labelling needed.
 [https://openprocessing.org/sketch/2703444]
-
-↑Something like this could be used to generate thousands, millions of permutations of a junction with accompanying bezier path points 
-Photoshop can also batch add noise to folders worth of images
-
 **Press \[START CAPTURE\] which will download a new permutation 3 times pe second. _Remember to press \[STOP CAPTURE\]!_ When you do, a json file will also be downloaded with the intersection coordinate as well as bezier coordinates and matching file name for the jpg it refers to.**
+
+Using a combination of available information that we can create around aspects of the problem using tools I have provided, a loss function needs to be designed to optimise compared to the voronoi as baseline.
 
 ↓ (You can also see the basic coordinates over a 0,0 central coordinate here:)
 
@@ -84,4 +85,9 @@ Think “assist” modules, not a full rewrite. The biggest wins:
 5. **Routing thresholds (N5 vs Y5, should-be-path vs icon)**
     
     - Keep our hand-crafted features (LoA, IPQ, persistent junctions) but learn the decision rule with a **shallow tree or logistic regression**. This gives you tunable boundaries without hand-tweaking constants.
+  
+# Pieces of the Puzzle 
+
+## Intersection protocol
+<img width="490" height="467" alt="Screenshot 2025-08-18 at 10 55 04 pm" src="https://github.com/user-attachments/assets/f2d842a1-0a41-4ff1-bb49-584919edbe2f" />
         
